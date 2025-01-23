@@ -1,0 +1,63 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.anime {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.anime-item {
+    margin-bottom: 30px;
+}
+
+.anime-item h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.anime-item p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.video {
+    text-align: center;
+    margin-top: 40px;
+}
+
+video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    border: none;
+}
+
