@@ -54,10 +54,9 @@ header p {
     margin-top: 40px;
 }
 
-video iframe {
+.video iframe {
     width: 100%;
     max-width: 800px;
     height: 450px;
     border: none;
 }
-
